@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .servmain {
+            width: 92%;
+            height: 850px;
+            margin: auto;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 30%;
+            height: 350px;
+            margin-left: 15px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .card a img {
+            width: 60px;
+            padding-top: 50px;
+            margin-left: 30px;
+        }
+
+        .card h2 {
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+
+        .card p {
+            text-align: justify;
+            line-height: 2;
+            margin: 25px 15px;
+        }
+            @media screen  and (max-width: 540px) {
+            
+            .card{
+             width: 90%;
+             margin: auto; 
+         }
+        }
+        @media screen  and (min-device-width: 540px) and (max-device-width: 768px) {
+            
+            .card{
+             width: 44%;
+             margin: auto; 
+         }
+        }
+        @media screen  and (min-device-width:768px) and (max-device-width: 1024px) {
+            
+            .card{
+             width: 30%;
+             margin: auto; 
+         }
+        }
+    </style>
+</head>
+<body>
+    <div class="servmain">
+        <div class="card">
+            <a href="">
+                <img src="images/HeartBeat.png" alt="">
+            </a>
+            <h2>Nesciunt Mete</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptates fugit facilis reprehenderit
+                et ratione ducimus.</p>
+        </div>
+        <div class="card">
+            <a href="">
+                <img src="images/hotspot.png" alt="">
+            </a>
+            <h2>Eosli Commodi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptates fugit facilis reprehenderit
+                et ratione ducimus.</p>
+        </div>
+         <div class="card">
+            <a href="">
+                <img src="images/hotspot.png" alt="">
+            </a>
+            <h2>Eosli Commodi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptates fugit facilis reprehenderit
+                et ratione ducimus.</p>
+        </div>
+</body>
+</html>

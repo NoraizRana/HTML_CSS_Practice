@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>Home Page</h1>
+    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore explicabo consequatur adipisci numquam omnis
+        tenetur commodi ratione suscipit accusamus. Eum quae eveniet repellat id impedit, sequi quasi quos cum
+        perspiciatis voluptatum ipsam facilis. Hic corporis nihil nostrum labore alias molestiae.</p>
+    <p class="one">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi corrupti possimus a eligendi laudantium esse?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi corrupti possimus a eligendi laudantium esse?</p>
+    <pre class="one">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi corrupti possimus a eligendi laudantium esse?</pre>
+
+    <a href="About.html">About</a><br>
+    <a href="Contact.html">Contact</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<script>
+    $(document).ready(function () {
+        $('h1').click(function () {
+            console.log('you clicked on h1');
+        });
+    $('#first').mouseenter(function(){
+        console.log('you entered on paragraph first')
+    });
+    $('.one').dblclick(function(){
+        $(this).css('background-color', 'red');
+    });
+    console.log('We are using jquery');
+});
+
+    </script>   
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechScape Order Form</title>
+    <style>
+        
+    .ordform {
+        margin: auto;
+        width: 48vh;
+        /* height: 80vh; */
+        /* position: relative;
+        left: 50%; */
+        background: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 300px;
+        text-align: left;
+    }
+    
+    .ordform h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .ordform label {
+        font-weight: bold;
+        display: block;
+        margin: 5px 0;
+    }
+    
+    .ordform select, .ordform input, .ordform textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .ordform button {
+        width: 100%;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+    
+    .ordform button[type="submit"] {
+        background-color: #28a745;
+        color: white;
+    }
+    
+    .ordform button[type="submit"]:hover {
+        background-color: green;
+    }
+    
+    .ordform .closebtn {
+        background-color: red;
+        color: white;
+    }
+    
+    .ordform .closebtn:hover {
+        background-color: darkred;
+    }
+    </style>
+</head>
+<body>
+    <div id="ordform" class="ordform">
+        <h2>Place Your Order</h2>
+        <form>
+            <label>Model:</label>
+            <select required>
+                <option value="" disabled selected>Select Model</option>
+                <option>iPhone 14</option>
+                <option>iPhone 14 Pro</option>
+                <option>iPhone 14 Pro Max</option>
+                <option>iPhone 15</option>
+                <option>iPhone 15 Pro</option>
+                <option>iPhone 15 Pro Max</option>
+                <option>iPhone 16</option>
+                <option>iPhone 16 Pro</option>
+                <option>iPhone 16 Pro Max</option>
+            </select>
+
+            <label>Color:</label>
+            <select required>
+                <option value="" disabled selected>Select Color</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+                <option>Gold</option>
+            </select>
+
+            <label>Storage:</label>
+            <select required>
+                <option value="" disabled selected>Select Storage</option>
+                <option>128GB</option>
+                <option>256GB</option>
+                <option>512GB</option>
+            </select>
+
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number:</label>
+            <input type="tel" placeholder="Enter your phone number" required>
+
+            <label>Address:</label>
+            <textarea placeholder="Enter your address" required></textarea>
+
+            <button type="submit">Confirm Order</button>
+            <button type="button" class="closebtn">Close</button>
+        </form>
+    </div>
+
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition in CSS</title>
+    <style>
+        .butt{
+            color: white;
+            background-color: blue;
+            height: 45px;
+            width: 90px;
+            text-align: center;
+            align-content: center;
+            margin: 40px 50px;
+            border-radius: 8px;
+            transition-property: width height;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1ms;
+        }
+        .butt a{
+            text-decoration: none;
+            color: white;
+        }
+        .butt:hover{
+            width: 200px;
+            height: 90px;
+            /* font-size: 50px; */
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div class="butt">
+        <a href="">Toggle</a>
+    </div>
+</body>
+</html>

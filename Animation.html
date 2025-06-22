@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .butt{
+            color: white;
+            background-color: blue;
+            height: 45px;
+            width: 90px;
+            text-align: center;
+            align-content: center;
+            margin: 40px 50px;
+            border-radius: 8px;
+            animation-name: animate;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: 4;
+            position: relative;
+        }
+        .butt a{
+            text-decoration: none;
+            color: white;
+        }
+       @keyframes animate{
+        0%{
+            background-color: blueviolet;
+            left: 0px;
+            top: 0px;
+        }
+        25%{
+            background-color: orangered;
+            left: 160px;
+            top: 0px;
+        }
+        50%{
+            background-color: green;
+            left: 160px;
+            top: 160px;
+        }
+        75%{
+            background-color: skyblue;
+            left: 0px;
+            top: 160px;
+        }
+            100%{
+            background-color: crimson;
+            left: 0px;
+            top: 0px;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="butt">
+        <a href="">Toggle</a>
+    </div>
+</body>
+</html>

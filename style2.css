@@ -1,0 +1,82 @@
+h1{
+    color: blue;
+    display: inline;
+    outline: auto;
+    outline-color: chocolate;
+    outline-style: outset;
+    outline-width: 10px;
+    text-align: center;
+    text-shadow: 2px 4px chartreuse;
+}
+h3{
+    display: inline-block;
+    width: 170px;
+    height: 60px;
+    color: crimson;
+    background-color: aqua;
+    text-align: left;
+    text-shadow: 3px 2.5px rgb(115, 11, 243);
+    box-sizing: content-box;
+    
+}
+.fsc{
+    text-transform:lowercase;
+    color: yellowgreen;
+    padding: 4px 8px 12px 16px;
+    margin: 4px 8px 12px 16px;
+    background-color: bisque;
+    background-image: url(images/bg\ 4.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: center left;
+ text-decoration: wavy;
+ text-justify: distribute;   
+text-align-last: right;
+text-align: center;
+border: 6px dashed purple;
+font-size: xx-large;
+font-weight: 75px;
+}
+a{
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 80px;
+    text-align: center top;
+    text-transform: uppercase;
+    text-decoration: overline;
+
+}
+footer{
+    text-align: right;
+    text-shadow: 3px 1px red;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: aqua;
+display: inline;
+/* width: 120px; */
+/* height: 130px; */
+outline: auto;
+outline-color: cadetblue;
+outline-style: double;
+font-size: large;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }

@@ -1,0 +1,96 @@
+body{
+    color: rgb(4, 11, 16);
+    /* background-color: chartreuse; */
+    /* background-image: url(images/car.jpg); */
+    background-repeat: repeat-x;
+    background-position: center right;
+    background-attachment: scroll local;
+    background-size: contain;
+}
+.bg{
+    color: azure;
+    width: 140px;
+    height: 150px;
+    background-color: blueviolet;
+    background-image: url(images/images\ \(2\).jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: scroll;
+    
+}
+p{
+    background-color: coral;
+    padding: 60 45 30 70;
+    width: 600px;
+    height: 559px;
+    background-image: url(images/bg\ 2.jpg);
+    background-size: cover;
+    background-position: bottom left;
+    background-attachment: fixed;
+    border: 4px groove purple;
+    border-radius: 5px;
+}
+h1{
+    color: aqua;
+    margin: 40px 30px 50px 35px;
+    padding: 40px 30px 50px 35px;
+    border-width: 30px;
+    border-style: ridge;
+    border-color: black;
+
+
+    outline: auto;
+    outline-color: chartreuse;
+    outline-width: thick;
+    outline-style: double;
+}
+p{
+ 
+    height: 180px;
+    width: 300px;
+    border: 2px groove brown;
+ box-sizing: border-box;
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+.green{
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: inherit;
+    font-family: cursive;
+
+}
+.one{
+    background-color: blue;
+    color: white;
+    text-align: right;
+    width: 75px;
+    height: 34px;
+    margin: 4px 6px;
+    padding: 4px 6px;
+    border: 4px solid blue;
+    border-radius: 15px;
+    font-size:x-large;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

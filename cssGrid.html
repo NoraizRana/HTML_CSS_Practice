@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <style>
+        .main {
+            display: grid;
+            /* grid-template-columns: repeat(4,1fr); */
+            /* grid-template-columns: repeat(autofill, minmax(200px, 1fr)); */
+            /* grid-gap: 100px; */
+            grid-auto-rows: minmax(200px, auto);
+            grid-auto-columns: minmax(200px, auto);
+            column-gap: 20px;
+            row-gap: 40px;
+        }
+
+        .box1 {
+            background-color: greenyellow;
+            border: 2px solid red;
+
+        }
+
+        .boxe {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box1">Box1</div>
+        <div class="box1 boxe">Box2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea praesentium rerum
+            id minima blanditiis ut similique ipsam reprehenderit, laboriosam vitae, eveniet dolorem possimus esse magni
+            est. Natus minima, quaerat dolores nesciunt esse vel laudantium amet voluptatem! Tempora sed eaque aut
+            dolorem, veniam quidem dolores ducimus perferendis ipsum necessitatibus iure Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Iure quos voluptas incidunt a eligendi consectetur ipsa vitae porro amet
+            inventore libero sint fugiat nobis harum voluptatem obcaecati ipsam asperiores id veritatis, explicabo
+            itaque alias! Sequi ad suscipit vero quaerat obcaecati molestiae numquam qui eaque libero vitae mollitia
+            officia, tempora quae aperiam at unde quisquam officiis? Consequuntur fugit pariatur eaque provident
+            architecto error accusantium! Hic maiores nemo, vero praesentium perferendis et nesciunt voluptates, numquam
+        </div>
+        <div class="box1">Box3</div>
+        <div class="box1">Box4</div>
+        <div class="box1">Box5</div>
+        <div class="box1">Box6</div>
+        <div class="box1">Box7</div>
+        <div class="box1">Box8</div>
+        <div class="box1">Box9</div>
+        <div class="box1">Box10</div>
+    </div>
+
+</body>
+
+</html>
